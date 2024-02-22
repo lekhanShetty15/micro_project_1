@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+  
+}
+.section1{
+    width: 100%;
+    height: 70vh;
+    background-color: #FFCD9E;
+    display: flex;
+    
+    
+}
+.text{
+    width: 60%;
+    height: 70vh;
+    padding: 50px 80px 50px 170px;
+}
+.line1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    /* letter-spacing: 1px; */
+
+}
+.desc1{
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: #484848;
+    /* letter-spacing: 1px; */
+}
+.desc2{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    /* letter-spacing: 1px; */
+
+}
+.emailInp{
+    margin-top: 20px;
+    width: 270px;
+    height: 42px;
+    border: 2.5px solid #282828;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    padding-right: 20px;
+
+}
+::placeholder{
+    font-size: 12px;
+    color: #888888;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+input{
+    font-size: 13px;
+    padding-left: 20px;
+    color: #282828;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+input:focus::placeholder {
+    color: transparent;
+}
+.registerBtn{
+    height: 42px;
+    width: 150px;
+    background-color: #282828;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    letter-spacing: 1px;
+
+}
+.registerBtn:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+.anchorBtn{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.anchorBtn:hover{
+    transform: none;
+}
+.spamTxt{
+    font-size: 11px;
+    color: white;
+    margin-left: 35px;
+    margin-top: 18px;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+
+
+}
+
+
+.image{
+    width: 40%;
+    height: 70vh;
+    padding: 50px 170px 50px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.heroImg{
+    height: 300px;
+    width: 280px;
+}
+
+
+
+
+.section2{
+    height: 30vh;
+    width: 100%;
+    background-color: #282828;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footerSection1{
+    height: 30vh;
+    width: 30%;
+    padding: 40px 0px;
+
+}
+.footerSection2{
+    height: 30vh;
+    width: 30%;
+    padding: 40px 20px 40px 0px;
+    text-align: end;
+    
+
+}
+.lists{
+    color: white;
+    font-size: 13px;
+    list-style: none;
+    font-weight: 400;
+    margin-bottom: 8px;    
+    letter-spacing: 1px;
+}
+.icon{
+    
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    
+}
+.alternate1{
+    margin-bottom: 8px;    
+
+}
+.alternate2{
+    margin-bottom: -10px;
+}
+.alternate3{
+    margin-top: 20px;
+}
